@@ -46,7 +46,7 @@ clear
 echo "<==××*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*××==>" | lolcat
 figlet TOOLS-V1 | lolcat
 echo "<==××*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*××==>" | lolcat
-echo '             TOOLS-V1 PROJECT BY MR.L4M3R' | lolcat
+echo '             TOOLS-V1 BY MR.L4M3R' | lolcat
 echo "<==××*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*××==>" | lolcat
 ulang='y'
 while [ $ulang = 'y' ];
