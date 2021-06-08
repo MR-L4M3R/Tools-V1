@@ -45,6 +45,7 @@ def loding2():
 
 ressture()
 os.system('sh hsowkaksisisiaiowowkwkaiske')
+
 blue='\e[1;34m'
 green='\e[1;32m'
 purple='\[1;35m'
