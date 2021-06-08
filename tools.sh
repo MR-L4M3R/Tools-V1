@@ -1,8 +1,50 @@
-#!/system/xbin/bash
-#AUTHOR:MR L4M3R
-#Github:https://github.com/MR-L4M3R
-#Ngapain Lo Sampai Sini Mau Recode! Gua Doain Orang Tua Lu Meninggal Dan Lu mandul Sampai Mati.boleh Recode Tapi Hargai Author Njeng
-#Tools Ini Saya Buat Hanya Untuk Mempermudah keperluan Hacking Anda
+#!usr/bin/bash
+# -*- coding: utf-8 -*-
+import os, sys, time, datetime, random, hashlib, re, threading, json, getpass, urllib
+from multiprocessing.pool import ThreadPool
+
+#hay manusia udah nyampe di sini ea  ubah author ataupun ngerecode semoga emak bapaknya mati dalam keadaan mengenaskan
+#buat yg nyampe di sini cuman buat mempelajari pemrograman dan beberapa fungsinya ane ucapin selamat berjuang
+#tapi awaslu yg nge recode ataupun mengganti author
+
+def tik():
+    titik = [
+     '   ', '.  ', '.. ', '...', '.. ', '.  ', '   ']
+    for o in titik:
+        print '\r\x1b[1;91m     [\xe2\x97\x8f] \x1b[1;92mLoading \x1b[1;97m' + o,
+        sys.stdout.flush()
+        time.sleep(0.7)
+
+def wa():
+    os.system('xdg-open https://api.whatsapp.com/send?phone=+15075790039&text=Assalamualaikum')
+
+def ressture():
+   os.system('clear')
+   print '\x1b[1;33m╔╦══════════════════════════════════╗\n║║ Sudah punya ID dan Password nya? ║\n╚╣╔═════════════════════════════════╝\n╔╝╚═════════════════════╗'
+   print '\x1b[1;33m║LOGIN UNTUK MELANJUTKAN║\n╠═══════════════════════╝'
+   user = raw_input('║ID      : ')
+   import getpass
+   sandi = raw_input('║PW      : ')
+   if sandi == 'channel MRL4M3R' and user == 'subscribe':
+      print '║LOGIN SUKSES\n╚═══════\x1b[1;91m▶'
+      sys.exit
+   else:
+      print 'Login GAGAL, Silahkan hubungi ADMIN'
+      time.sleep(1)
+      wa()
+      ressture()
+
+def loding2():
+    looding2 = [
+     '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[\033[1;32m✓\033[0m]\n']
+    for o in looding2:
+        print '\r\x1b[1;91m[\xe2\x97\x8f] \x1b[1;92mCheck \x1b[1;97m' + o,
+        sys.stdout.flush()
+        time.sleep(0.1)
+        
+
+ressture()
+os.system('sh hsowkaksisisiaiowowkwkaiske')
 blue='\e[1;34m'
 green='\e[1;32m'
 purple='\[1;35m'
@@ -13,7 +55,7 @@ yellow='\e[1;33m'
 sleep 3
 echo "\033[31;1m
 __________________________________
-  ║▒▒▒▒▒▒▒▒▒▒║  |By:MR.L4M3R   |
+  ║▒▒▒▒▒▒▒▒▒▒║  |Author:MR.L4M3R   |
   ║▒▒▒▒▒▒▒▒▒▒║  |SUMBER CYBER      |
   ║▒▒▒▒▒▒▒▒▒▒║  |TEAM      |
   ║▒▒▒▒▒▒▒▒▒▒║  |______________|
